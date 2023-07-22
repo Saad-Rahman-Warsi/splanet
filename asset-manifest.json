@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/splanet/static/css/main.dfb293fe.css",
-    "main.js": "/splanet/static/js/main.6df93a0c.js",
+    "main.js": "/splanet/static/js/main.520bea1c.js",
     "static/js/787.ad5be4ff.chunk.js": "/splanet/static/js/787.ad5be4ff.chunk.js",
     "static/media/homeimg1.jpg": "/splanet/static/media/homeimg1.42adc4cb1c109ba6cb8c.jpg",
     "static/media/homeimg6.jpg": "/splanet/static/media/homeimg6.6e8bedba69887c2c2e3e.jpg",
@@ -14,11 +14,11 @@
     "static/media/logo.svg": "/splanet/static/media/logo.7670cd18d273301b55ecdce28cde94a1.svg",
     "index.html": "/splanet/index.html",
     "main.dfb293fe.css.map": "/splanet/static/css/main.dfb293fe.css.map",
-    "main.6df93a0c.js.map": "/splanet/static/js/main.6df93a0c.js.map",
+    "main.520bea1c.js.map": "/splanet/static/js/main.520bea1c.js.map",
     "787.ad5be4ff.chunk.js.map": "/splanet/static/js/787.ad5be4ff.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dfb293fe.css",
-    "static/js/main.6df93a0c.js"
+    "static/js/main.520bea1c.js"
   ]
 }
