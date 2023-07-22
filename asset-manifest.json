@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/splanet/static/css/main.dfb293fe.css",
+    "main.js": "/splanet/static/js/main.6df93a0c.js",
+    "static/js/787.ad5be4ff.chunk.js": "/splanet/static/js/787.ad5be4ff.chunk.js",
+    "static/media/homeimg1.jpg": "/splanet/static/media/homeimg1.42adc4cb1c109ba6cb8c.jpg",
+    "static/media/homeimg6.jpg": "/splanet/static/media/homeimg6.6e8bedba69887c2c2e3e.jpg",
+    "static/media/homeimg3.jpg": "/splanet/static/media/homeimg3.d1fac1520f1f8bbe8670.jpg",
+    "static/media/homeimg2.jpg": "/splanet/static/media/homeimg2.ae5e512ac5aa45adc816.jpg",
+    "static/media/homeimg4.jpg": "/splanet/static/media/homeimg4.34c54acb2e1d03505a0c.jpg",
+    "static/media/aboutus1.jpg": "/splanet/static/media/aboutus1.f7b5bb36cd1b5f40374a.jpg",
+    "static/media/homeimg5.jpg": "/splanet/static/media/homeimg5.3642aa9c9968c75a78f5.jpg",
+    "static/media/aboutus2.jpg": "/splanet/static/media/aboutus2.f51bd7892365d9e7ebf8.jpg",
+    "static/media/logo.svg": "/splanet/static/media/logo.7670cd18d273301b55ecdce28cde94a1.svg",
+    "index.html": "/splanet/index.html",
+    "main.dfb293fe.css.map": "/splanet/static/css/main.dfb293fe.css.map",
+    "main.6df93a0c.js.map": "/splanet/static/js/main.6df93a0c.js.map",
+    "787.ad5be4ff.chunk.js.map": "/splanet/static/js/787.ad5be4ff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dfb293fe.css",
+    "static/js/main.6df93a0c.js"
+  ]
+}
