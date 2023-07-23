@@ -3,7 +3,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import FacData from './FacData';
 
-import img1 from './images/img1.jpg';
+
 
 var tn="";
 
@@ -49,7 +49,7 @@ function WinPrint() {
 function FList(props) {
   
   const fListView = FacData.map(
-        (element, index) => { tn="/images/"+element.Image;
+        (element, index) => { tn="https://saad-rahman-warsi.github.io/splanet/images/"+element.Image;
         return (
               (checkD(element.TypeF)) ? 
                     <Row> <Col xs={2}>  <img src={tn} /> </Col>
