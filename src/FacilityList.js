@@ -1,5 +1,11 @@
 import React from 'react';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import FacData from './FacData';
+
+import img1 from './images/img1.jpg';
+
+var tn="";
 
 var checkD=(val)=>{
   var flg=false;
@@ -43,17 +49,19 @@ function WinPrint() {
 function FList(props) {
   
   const fListView = FacData.map(
-        (element) => {
-            return (
+        (element, index) => { tn="/images/"+element.Image;
+        return (
               (checkD(element.TypeF)) ? 
-                    <> 
+                    <Row> <Col xs={2}>  <img src={tn} /> </Col>
+                    <Col xs={10}>
                     <h6 style={{color: '#1F7E6B'}}><b>{element.Name}</b></h6>
                     <p> {element.Descr} </p>
+                    </Col>
                     <hr />
-                    </> : <> </>
-                  )
-                    }
+                    </Row> : <> </>
             )
+          }
+        )
 
   return( 
     <>
@@ -65,7 +73,7 @@ function FList(props) {
 function FacilityList(props) {
 
   return (
-    <div style={{textAlign: 'left'}}>
+    <div style={{textAlign: 'left'}}>  
       <FList />
     </div>
   );

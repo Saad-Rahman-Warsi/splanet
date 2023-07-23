@@ -17,7 +17,7 @@ function HomeCenter(props) {
   return (
  <Carousel>
       <Carousel.Item>
-        <img className="d-block w-100" src={props.im1} alt="First slide" />
+        <img className="d-block w-100" src={props.im1} alt={props.lalt1} />
         <Carousel.Caption>
           <h3> {props.label1} </h3>
           <p></p>
@@ -25,7 +25,7 @@ function HomeCenter(props) {
       </Carousel.Item>
 
       <Carousel.Item>
-        <img className="d-block w-100" src={props.im2} alt="Second slide" />
+        <img className="d-block w-100" src={props.im2} alt={props.lalt2} />
         <Carousel.Caption>
           <h3> {props.label2} </h3>
           <p></p>
@@ -46,21 +46,21 @@ function HomeF() {
       
           <Col>
             <Row>
-              <HomeCenter label1="" label2="" im1={img1} im2={img2}/>
+              <HomeCenter label1="" label2="" im1={img1} im2={img2} lalt1="Apprendre Experimenter" lalt2="Apprendre l'équipement avancé"/>
             </Row>
             <Row> <h3>Apprendre Experimenter</h3> </Row>
           </Col>
 
           <Col>
             <Row>
-              <HomeCenter label1="" label2="" im1={img3} im2={img4}/>
+              <HomeCenter label1="" label2="" im1={img3} im2={img4} lalt1="Analyse d'échantillon" lalt2="Échantillon de sol, échantillon de miel, échantillon d'eau"/>
             </Row>
             <Row> <h3>Analyse d'échantillon</h3> </Row>
           </Col>
           
           <Col>
             <Row>
-              <HomeCenter label1="" label2="" im1={img5} im2={img6}/>
+              <HomeCenter label1="" label2="" im1={img5} im2={img6} lalt1="Utiliser les installations du laboratoire" lalt2="Utiliser un équipement avancé"/>
             </Row>
             <Row> <h3>Utiliser le laboratoire</h3> </Row>
           </Col>
@@ -83,21 +83,21 @@ function HomeE() {
       
           <Col>
             <Row>
-              <HomeCenter label1="" label2="" im1={img1} im2={img2}/>
+              <HomeCenter label1="" label2="" im1={img1} im2={img2} lalt1="Learn Experiments" lalt2="Learn Advanced Equipment"/>
             </Row>
             <Row> <h3>Learn Experiments</h3> </Row>
           </Col>
 
           <Col>
             <Row>
-              <HomeCenter label1="" label2="" im1={img3} im2={img4}/>
+              <HomeCenter label1="" label2="" im1={img3} im2={img4} lalt1="Sample Analysis" lalt2="Soil Sample, Honey Sample, Water Sample"/>
             </Row>
             <Row> <h3>Sample Analysis</h3> </Row>
           </Col>
           
           <Col>
             <Row>
-              <HomeCenter label1="" label2="" im1={img5} im2={img6}/>
+              <HomeCenter label1="" label2="" im1={img5} im2={img6} lalt1="Use Lab Facilities" lalt2="Use Advanced Equipment"/>
             </Row>
             <Row> <h3>Use Laboratory Facilities</h3> </Row>
           </Col>
