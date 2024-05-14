@@ -27,7 +27,7 @@ FROM bitnami/nginx as ngi
 COPY ./nginx.conf /opt/bitnami/nginx/conf/nginx.conf
 
 #### copy artifact build from the 'build environment'
-COPY --from=build /app/dist/splanet /usr/share/nginx/html
+COPY --from=build /app/build /usr/share/nginx/html
 
 EXPOSE 8080
 
